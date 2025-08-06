@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 40px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+
+}
+
+.slot {
+    border: 2px solid rgb(255, 255, 255);
+    transition: background 0.3s ease;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.slot:hover {
+    cursor: pointer;
+    background: #2f2e2e;
+
+
+}
+
+button {
+    border: none;
+    background: linear-gradient(150deg, rgb(250, 44, 44), rgb(30, 83, 206));
+    padding: 15px;
+    border-radius: 100px;
+    transition: transform 0.5s ease;
+    color: gold;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.restart {
+    display: none;
+}
+
+h1{
+    font-size: 35px;
+    color: gold;
+}
+.toast_Message{
+    display: none;
+}
+.Show{
+    padding: 25px;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    color: white;
+    background: #000;
+    animation: showAndHide 2s ease-in-out forwards;
+}
+@keyframes showAndHide {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
