@@ -9,7 +9,6 @@ A clean, animated, and interactive remake of the classic Tic Tac Toe game — bu
 - 🧠 **Win Detection**: Recognizes wins across all rows, columns, and diagonals.
 - 📢 **Toast Messages**: Displays animated win messages and invalid move alerts.
 - 🔄 **Restart Button**: Resets the game board and score instantly.
-- 🎨 **Responsive Design**: Works beautifully on all screen sizes.
 
 ---
 
@@ -58,3 +57,4 @@ That’s it — let the battle of **X vs O** begin!
 - JavaScript (DOM manipulation)
 
 ---
+
